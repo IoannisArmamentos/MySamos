@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.mysamos"
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+repositories { mavenCentral() }
+dependencies {
+   implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    compile 'com.google.android.gms:play-services:+'
+    compile 'com.facebook.android:facebook-android-sdk:3.22.0'
+    compile 'com.android.support:appcompat-v7:+'
+    compile files('libs/bolts-android-1.1.4-javadoc.jar')
+    compile files('libs/bolts-android-1.1.4.jar')
+    compile files('libs/Parse-1.8.1.jar')
+    compile files('libs/ParseCrashReporting-1.8.1.jar')
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
+}

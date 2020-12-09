@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo2e"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mysamos.NewReport" >
+
+    <TextView
+        android:id="@+id/tvHeaderNewReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="My Samos"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/etUserDescriptionNewReport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bSubmit"
+
+        android:layout_below="@+id/tvHeaderNewReport"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/new_report_button_text_sbmit"
+        android:textColor="#000000"
+        android:background="@drawable/bottombar" />
+    
+
+</RelativeLayout><!-- From: file:/C:/Users/Ibanezman192/AndroidstudioProjects/MySamos/app/src/main/res/layout/activity_new_report.xml -->

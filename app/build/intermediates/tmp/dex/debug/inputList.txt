@@ -1,0 +1,11 @@
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\classes\debug
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-505dda1f4c58e2c077ca25542c53501665d9edb0.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-1bfa9fb7f129dc86e6fb4e02db88f00a175519da.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.8.1-8e5796aada9812dc13da273fb57533b3373afa84.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-be8c7ef3ca9f8e524799d3b2f87e2b846d4f7f81.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-javadoc-9b777b5d0be0872543df719f02c635a9afb681b2.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\classes-522bcc0ef7d996fd25e3744274ae3e6921dbd301.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\classes-b0847ead6c8763f1bde106e3f17e499e709b8add.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\Parse-1.8.1-97706c772752e605a6b462f17a63dbf2250f16b7.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\classes-5fcf67dc6043a1a31a6f0f8f27976f43a59ccfd1.jar
+C:\Users\Ibanezman192\AndroidstudioProjects\MySamos\app\build\intermediates\pre-dexed\debug\classes-4743f04b26dd2b5cb6af135e9d96617ba126f936.jar

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parse_application_id">kwt4x1815ugEsbEMcR5u3BnObi5UuRjO0Kan3dqo</string>
+    <string name="parse_client_key">HIKh5lZWkfcCoHEhuJWYoq6dvjes4IlGoHiOSCOr</string>
+    <string name="facebook_app_id">1600986810120780</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="app_name">MySamos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_new_report">NewReport</string>
+    <string name="new_report_button_text_sbmit">Submit report</string>
+    <string name="session_invalid_error">session_invalid</string>
+    <string name="logn_generic_error">Something went wrong. Please retry.</string>
+    <string name="title_sign_activity">Sign In</string>
+    <string name="device_offline_message">"Your device appears to be offline. Some content may be unavailable."</string>
+
+</resources>

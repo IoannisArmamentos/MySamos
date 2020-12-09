@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo2e"
+    tools:context="com.mysamos.Info" >
+
+    <TableRow
+        android:id="@+id/trOptions"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bottombar" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:src="@drawable/appinfo" />
+
+        <ImageView
+            android:id="@+id/imageButton1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/newreport" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/profile" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="178dp"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/info2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_toEndOf="@+id/imageView3"
+        android:textStyle="bold"
+        android:text="Armamentos Ioannis-Dimitrios
+        icsd12013@icsd.aegean.gr 
+        
+Undergraduate Student Dept. of I&amp;C System Engineering"
+        />
+
+    <TextView
+        android:id="@+id/Perigrafi"
+        android:layout_above="@+id/trOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="34dp"
+        android:text="Η εφαρμογή φτιάχτηκε στα πλαίσια του μαθήματος Τεχνολογίες Λογισμικού του Τμήματος Μηχανικών Πληροφοριακών και Επικοινωνιακών Συστημάτων,του Πανεπιστημίου Αιγαίου. Δεν έχει εμπορικό χαρακτήρα παρά μόνο ακαδημαικό. Αναπτύχθηκε στο προγραμματιστικό περιβάλλον Eclipse με γλώσσα προγραμματισμού Java."
+        android:textColor="#FFF"
+        android:textStyle="bold" />
+
+</RelativeLayout>
